@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+		<link rel="icon" href="./assets/images/certification-badge.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <title>Exame 70-480</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/site.css" />
+  </head>
+  <body onload="configurePage('./assets/js/content/1-Introduction.js')">
+
+    <button onclick="renderContent('./assets/js/content/1-Introduction.js')">Introdução</button>
+    <button onclick="renderContent('./assets/js/content/chapter-1.js')">Capítulo 1</button>
+    <button onclick="renderContent('./assets/js/content/chapter-2.js')">Capítulo 2</button>
+    <main id="content"></main>
+
+    <script src="./assets/js/phs-renderer/phs-renderer.js"></script>
+  </body>
+</html>
