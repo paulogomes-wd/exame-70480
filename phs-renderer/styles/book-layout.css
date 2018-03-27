@@ -1,0 +1,42 @@
+/* Extra small devices (portrait phones, less than 576px), no media query since this is the default */
+body {
+  background-color: yellowgreen;
+  margin: 0;
+}
+
+#page-header > h1 {
+  font-size: 0;
+}
+
+#page-header > h1 > canvas {
+  margin-bottom: 0.25rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+/*@media print {*/
+@media screen and (min-width: 576px) {
+  body {
+    background-color: rebeccapurple;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  body {
+    background-color: palevioletred;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  body {
+    background-color:blue;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  body {
+    background-color:whitesmoke;
+  }
+}
