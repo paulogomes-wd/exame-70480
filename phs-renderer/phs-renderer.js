@@ -10,6 +10,7 @@ function configurePage(text, initialContent, layout){
 }
 
 function onLoadLayout() {
+  document.getElementById('screen-size').innerHTML = window.innerWidth + ' x ' + window.innerHeight;
   // alert('Layout was load successfully.');
 }
 
